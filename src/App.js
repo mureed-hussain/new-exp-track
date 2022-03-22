@@ -1,4 +1,5 @@
 import "./App.css";
+import React from "react";
 import Header from "./components/Header";
 import Balance from "./components/Balance";
 import IncomExp from "./components/IncomExp";
@@ -11,11 +12,12 @@ function App() {
   return (
     <GlobalProvider>
       <Header />
-      <div className="container"></div>
+      <div className="container"> </div>
       <Balance />
       <IncomExp />
       <TransactionList />
       <AddTransaction />
+     
     </GlobalProvider>
   );
 }
