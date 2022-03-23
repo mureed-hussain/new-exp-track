@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react'
 
 const Balance = () => {
   return (
-    <div>
-      <h4>Your Balance</h4>
-      <h1>$0.00</h1>
+      <div>
+    <h4>Your Balance</h4>
+    <h1 id="balance">$0.00</h1>
     </div>
-  );
-};
+  )
+}
 
-export default Balance;
+export default Balance
